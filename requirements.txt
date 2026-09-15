@@ -1,0 +1,20 @@
+# Install PyTorch first, matching your CUDA version: https://pytorch.org/get-started/locally/
+torch>=2.0
+torchvision
+
+# Few-shot segmentation
+segment-anything
+transformers>=4.38
+scikit-learn
+scipy
+opencv-python
+numpy
+tqdm
+
+# Notebook
+matplotlib
+jupyter
+
+# Data preprocessing (extract_cubicasa_data.py)
+cairosvg
+pillow
